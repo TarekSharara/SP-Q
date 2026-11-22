@@ -1,6 +1,6 @@
 /* 25PW Qual – offline service worker. Change VERSION after every update of index.html */
 const PREFIX = "spq-qual-";
-const VERSION = PREFIX + "v1";
+const VERSION = PREFIX + "v2";
 const CORE = ["./", "./index.html", "./manifest.webmanifest", "./spq-icon-180.png", "./spq-icon-192.png", "./spq-icon-512.png"];
 
 self.addEventListener("install", e => {
